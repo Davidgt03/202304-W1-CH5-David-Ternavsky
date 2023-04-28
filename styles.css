@@ -64,4 +64,20 @@ img {
   margin: 0;
 }
 
+@media (min-width: 1280px) {
+  main,
+  html {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+  }
+  li {
+    margin: 20px;
+  }
+  header {
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
