@@ -7,12 +7,16 @@
 html,
 body {
   display: flex;
+  background-color: rgb(255, 255, 255);
   margin: 0;
-  background-color: #172432;
   color: white;
   font-family: "Rubik", sans-serif;
   flex-direction: column;
   height: 100%;
+}
+
+main {
+  background-color: #172432;
 }
 
 main {
@@ -62,6 +66,8 @@ img {
 
 .img-li {
   margin: 0;
+  margin: 0.5rem;
+  display: flex;
 }
 
 @media (min-width: 1280px) {
@@ -69,6 +75,8 @@ img {
   html {
     display: flex;
     justify-content: space-between;
+  }
+  main {
     margin-top: 200px;
   }
   li {
@@ -78,6 +86,13 @@ img {
     margin: 0;
     margin-left: 20px;
   }
+}
+.traveleres-experiences {
+  align-items: center;
+}
+
+.avatar-box {
+  background-color: grey;
 }
 
 /*# sourceMappingURL=styles.css.map */
