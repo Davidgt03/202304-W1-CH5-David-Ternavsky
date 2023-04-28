@@ -7,26 +7,34 @@
 html,
 body {
   display: flex;
+  background-color: rgb(255, 255, 255);
   margin: 0;
-  background-color: #172432;
   color: white;
   font-family: "Rubik", sans-serif;
   flex-direction: column;
   height: 100%;
 }
+
+main {
+  background-color: #172432;
+}
+
 main {
   height: 100%;
 }
+
 ul li {
   list-style: none;
   padding: 0px;
 }
+
 .ul-menu,
 .ul-info,
 .ul-information,
 .ul-follow {
   padding: 0;
 }
+
 .ul-follow {
   display: flex;
   margin: 0;
@@ -41,17 +49,51 @@ h1,
 p {
   margin: 0;
 }
+
 p {
   font-size: 10px;
 }
+
 header {
   margin-top: 70px;
   margin-left: 20px;
   font-size: 20px;
 }
+
 img {
   margin: 0;
 }
+
 .img-li {
   margin: 0;
+  margin: 0.5rem;
+  display: flex;
+}
+
+@media (min-width: 1280px) {
+  main,
+  html {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+  li {
+    margin: 20px;
+  }
+
+  header {
+    margin: 0;
+    margin-left: 20px;
+  }
+}
+
+.traveleres-experiences {
+  align-items: center;
+}
+.avatar-box {
+  background-color: grey;
 }
