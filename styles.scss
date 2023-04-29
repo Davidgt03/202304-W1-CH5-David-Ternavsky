@@ -147,17 +147,190 @@ img {
   display: flex;
 }
 
+.traveleres-experiences {
+  align-items: center;
+}
+.avatar-box {
+  background-color: grey;
+}
+.header-travelers {
+  h1 {
+    color: #172432;
+    border-bottom: solid 1.5px coral;
+    width: 350px;
+    font-size: 40;
+    font-family: Playfair Display;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  p {
+    color: #767e86;
+    white-space: normal;
+    font-size: 18px;
+    margin-bottom: 50px;
+    margin-right: 8px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.p-avatar {
+  background-color: #f5f6f7;
+  color: #767e86;
+  white-space: normal;
+  font-size: 18px;
+
+  margin-right: 0px;
+}
+.feedback-travelers {
+  color: #767e86;
+  margin-left: 0;
+}
+.stars-div {
+  background-color: #f5f6f7;
+  color: #767e86;
+  margin: 0;
+  font-size: 50px;
+  .john,
+  .acc {
+    font-size: 20px;
+  }
+}
+.buttons {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+.form-newsletter {
+  height: 500px;
+  box-shadow: 0px 0px 4px 0px #0000004d;
+  margin: 0;
+  margin-right: 10px;
+  display: flex;
+  border-radius: 10%;
+}
+.form-class {
+  margin-top: 100px;
+  color: #767e86;
+}
+.newsletter-class {
+  color: #767e86;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 50px;
+}
+.color {
+  background-color: #172432;
+  margin: 0;
+}
+.form-newsletter,
+div {
+  padding: 10px;
+}
+#GET-name {
+  margin: 0;
+}
+.newsletter-class {
+  display: flex;
+}
+.email-plate {
+  margin-bottom: 20px;
+  width: 290px;
+}
+.btn-email {
+  width: 290px;
+}
+h4 {
+  color: #767e86;
+}
+.all-avatars {
+  height: 400px;
+  overflow: hidden;
+  margin: 0;
+}
+
+@media (min-width: 1280px) {
+  .traveleres-experiences {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-travelers h1 {
+    width: 700px;
+    margin-bottom: 20px;
+  }
+  .email-plate {
+    margin: 0;
+  }
+  .buttons {
+    margin-left: 1800px;
+  }
+  .form-newsletter {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  .newsletter-box {
+    display: flex;
+    width: 1676px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .email-plate {
+    width: 300px;
+  }
+  .emails-class {
+    margin-left: 0px;
+  }
+  h4 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .newsletter-class {
+    width: 718px;
+    font-size: 117px;
+    margin-left: 0;
+    margin-right: 50px;
+  }
+  .content-avatar {
+    padding: 0;
+    width: 600px;
+    margin: 0;
+  }
+  .stars-box,
+  .p-avatar {
+    padding: 20px;
+  }
+  .p-avatar {
+    padding-bottom: 0;
+    margin: 0;
+    width: 600px;
+  }
+  .all-avatars {
+    display: flex;
+  }
+}
+
 @media (min-width: 1280px) {
   main,
   html {
     display: flex;
     justify-content: space-between;
   }
-
   main {
-    margin-top: 200px;
+    padding: 190px;
   }
-
   li {
     margin: 20px;
   }
@@ -166,11 +339,4 @@ img {
     margin: 0;
     margin-left: 20px;
   }
-}
-
-.traveleres-experiences {
-  align-items: center;
-}
-.avatar-box {
-  background-color: grey;
 }
