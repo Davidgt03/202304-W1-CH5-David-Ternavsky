@@ -14,6 +14,74 @@ body {
   height: 100%;
 }
 
+.home__page {
+  background-image: url(./photos/mountain-landscape-2031539_1280.jpg);
+}
+.home__page h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 53px;
+  color: #ffffff;
+}
+.home__page p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 21px;
+  color: #ffffff;
+}
+.home__page .fake__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 60px;
+  margin-left: 12px;
+  width: 288px;
+  height: 595px;
+  background: #ffffff;
+  border-radius: 16px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.home__page h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 17px;
+  color: #767e86;
+  text-transform: uppercase;
+}
+.home__page h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  color: #172432;
+}
+.home__page .form--bottom-margin {
+  border-bottom: rgb(16, 13, 13) 2px solid;
+  width: 260px;
+}
+.home__page .fake__button__form {
+  height: 128px;
+  width: 288px;
+  background-color: #ff7757;
+  font-family: Playfair Display;
+  border-radius: 16px;
+  font-size: 4rem;
+  text-align: center;
+  line-height: 48px;
+  font-weight: 400;
+}
+
 main {
   background-color: #172432;
 }
