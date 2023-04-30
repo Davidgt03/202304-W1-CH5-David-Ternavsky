@@ -6,6 +6,8 @@
 
 html,
 body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: flex;
   background-color: rgb(255, 255, 255);
   margin: 0;
@@ -16,7 +18,8 @@ body {
 }
 
 .home__page {
-  background-image: url(./photos/mountain-landscape-2031539_1280.jpg);
+  background-image: url(./photos/montañicas-1012880.jpg);
+  display: flex;
 
   h1 {
     font-family: "Playfair Display";
@@ -27,7 +30,7 @@ body {
     color: #ffffff;
   }
 
-  p {
+  p .header__subtitle__paragraph {
     font-family: "Rubik";
     font-style: normal;
     font-weight: 400;
@@ -83,15 +86,20 @@ body {
   .fake__button__form {
     height: 128px;
     width: 288px;
+    justify-content: space-between;
     background-color: #ff7757;
     font-family: Playfair Display;
-    border-radius: 16px;
+    border-radius: 0px, 16px, 16px, 0px;
     font-size: 4rem;
     text-align: center;
     line-height: 48px;
     font-weight: 400;
   }
 }
+
+@media (min-width: 1280px) {
+}
+
 main {
   background-color: #172432;
 }
