@@ -266,12 +266,13 @@ h4 {
   .header-travelers h1 {
     width: 700px;
     margin-bottom: 20px;
+    margin-top: 100px;
   }
   .email-plate {
     margin: 0;
   }
   .buttons {
-    margin-left: 1800px;
+    margin-left: 1650px;
   }
   .form-newsletter {
     margin-left: 150px;
@@ -411,6 +412,118 @@ h3 {
 }
 .margin {
   margin-left: 15px;
+}
+
+.title-planners {
+  margin: 0;
+}
+
+#trip-h2,
+.title-planners {
+  color: #172432;
+}
+
+@media (min-width: 1280px) {
+  .rome-title,
+  span,
+  h3,
+  .star {
+    width: 0;
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 0;
+    overflow: hidden;
+  }
+  .third-page {
+    height: 1000px;
+    margin-bottom: 100px;
+  }
+  .header-plans {
+    margin-bottom: 100px;
+  }
+  .display-photos {
+    display: flex;
+    margin-left: 170px;
+  }
+  .img-view {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 840px;
+  }
+  .rome-div {
+    display: flex;
+  }
+  .travelers-experiences {
+    margin-left: 100px;
+  }
+  .content-avatar {
+    margin-left: 20px;
+  }
+  .buttons {
+    gap: 10px;
+  }
+}
+.title-blog {
+  color: #172432;
+  border-bottom: solid 2px coral;
+  width: 340px;
+  font-size: 40;
+  font-family: Playfair Display;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 85px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.fourth-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-paragraph {
+  color: #767e86;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.italy-view {
+  border-radius: 10%;
+}
+
+.read-more {
+  color: #ff7757;
+  font-size: 25px;
+}
+
+.review {
+  color: #172432;
+  width: 340px;
+  font-size: 30;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 1280px) {
+  .fourth-display {
+    display: flex;
+  }
+  .review {
+    margin: 0;
+  }
+  .italy-view {
+    width: 358px;
+    height: 400px;
+  }
+}
+.italy-view {
+  width: 340px;
+  height: 370px;
 }
 
 /*# sourceMappingURL=styles.css.map */
