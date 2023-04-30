@@ -21,6 +21,16 @@ body {
   background-image: url(./photos/montañicas-1012880.jpg);
   display: flex;
 
+  .home__page__nav__bar .web__logo {
+    font-size: 1, 5rem;
+    background-color: #172432;
+    justify-content: space between;
+  }
+
+  .burguer__button {
+    align-items: end;
+  }
+
   h1 {
     font-family: "Playfair Display";
     font-style: normal;
@@ -98,6 +108,13 @@ body {
 }
 
 @media (min-width: 1280px) {
+  .home__page {
+    background-image: url(./photos/montañicas-1012880.jpg);
+    display: flex;
+  }
+
+  h1 {
+  }
 }
 
 main {
